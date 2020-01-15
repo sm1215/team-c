@@ -3,6 +3,12 @@
 Global
 ========================================
 */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -228,6 +234,7 @@ Profile Picture Container
   grid-area: 1/1;
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 170px;
 }
 
 .personal-msg {
@@ -519,8 +526,7 @@ Friend Space
 .friend-pic-container img {
   display: block;
   margin: auto;
-  width: 30px;
-  height: 50px;
+  max-width: 90px;
 }
 
 .friends-list-link {
@@ -602,8 +608,7 @@ Comment Wall
 }
 
 .comment-wall img {
-  width: 50px;
-  height: 50px;
+  max-width: 90px;
 }
 #add-comment {
   text-align: right;
