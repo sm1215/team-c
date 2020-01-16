@@ -569,15 +569,21 @@ Comment Wall
 }
 
 .comment-wall th {
-  background-color: #79bdb1;
+  background-color: #985757;
   width: 158px;
   padding: 3px;
   vertical-align: top;
 }
 
+.comment-wall th a,
+.comment-wall th a:visited {
+  color: #FFFFFF;
+}
+
 .comment-wall td {
   vertical-align: top;
-  background-color: #d1ece8;
+  border: 1px solid #985757;
+  box-sizing: border-box;
   width: 269px;
   padding: 3px;
 }
