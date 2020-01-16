@@ -426,12 +426,13 @@ User Network
   width: 433px;
   margin: auto;
   height: 75px;
-  border: 2px solid black;
+  border: 2px solid #3EB39F;
   margin-top: 13px;
 }
 
 .user-network h2 {
   font-size: 12pt;
+  color: #3EB39F;
 }
 
 /*
@@ -471,9 +472,10 @@ Blurbs
 
 .blurbs h3 {
   margin: 0;
-  color: #FFFFFF;
+  color: #003399;
   font-size: 9pt;
   margin-left: 15px;
+  margin-bottom: 5px;
 }
 
 .blurbs p:nth-of-type(5) {
